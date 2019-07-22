@@ -30,15 +30,14 @@ Adaptación para EchidnaShield (Arduino Nano / Leonardo) XDeSIG.
 #include "Adafruit_NeoPixel.h"
 #define MAXLED         418 // MAX LEDs actives on strip
 
-#define PIN_LED       8  // R 500 ohms to DI pin for WS2812 and WS2813, for WS2813 BI pin of first LED to GND  ,  CAP 1000 uF to VCC 5v/GND,power supplie 5V 2A  
+#define PIN_LED       8  // simple aliementation source (500mA to 481 LEDs; track.Color(0,16,0), track.Color(16,0,0))
 #define PIN_P1      4   // switch player 1 to PIN and GND
-#define PIN_P2        7 //   // switch player 2 to PIN and GND 
+#define PIN_P2        7 //   // switch player 2 to PIN and GND
 #define PIN_AUDIO      10   // BUZZER
-#define PIN_LED_R      13  // Led Red
-#define PIN_LED_O      12  // Led Orange
-#define PIN_LED_G      11  // Led Green
-#define PIN_LED_B      6  // Led Blue
-
+#define PIN_LED_R      13  // Led Red      Semaphore type Formula 1
+#define PIN_LED_O      12  // Led Orange   Semaphore type Formula 1
+#define PIN_LED_G      11  // Led Green    Semaphore type Formula 1
+#define PIN_LED_B      6  // Led Blue      It indicates that we have a hill.
 
 int NPIXELS=MAXLED; // leds on track
 
