@@ -1,7 +1,7 @@
 # Led_Race_Echidna
 
 
-Adaptation for EchidnaShield (Arduino Nano/Leonardo) by [XDeSIG] [TWI01].
+Adaptation for EchidnaShield (Arduino Nano/Leonardo) by [XDeSIG][TWI01].
 
 
 License original: https://twitter.com/openledrace
