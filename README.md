@@ -8,7 +8,6 @@ License original: https://twitter.com/openledrace
 
 
 ![Top view][PHT]
-![Render][RENDER]
 
 <!-- links -->
 
